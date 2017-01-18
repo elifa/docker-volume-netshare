@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV PLUGIN_NETSHARE_VERSION 0.33
+ENV PLUGIN_NETSHARE_VERSION 0.32
 ENV PLUGIN_NETSHARE_RELEASE=https://github.com/ContainX/docker-volume-netshare/releases/download/v${PLUGIN_NETSHARE_VERSION}/docker-volume-netshare_${PLUGIN_NETSHARE_VERSION}_linux_amd64-bin
 
 RUN apk add --update wget nfs-utils ca-certificates &&\
